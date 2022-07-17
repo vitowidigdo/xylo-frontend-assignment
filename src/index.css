@@ -1,0 +1,28 @@
+.hero-home {
+  --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  border-radius: 0.5rem;
+  width: 70%;
+}
+
+.shadow-green {
+  box-shadow: 0px 16px 32px rgba(87, 189, 152, 0.4);
+  border-radius: 8px;
+  border: 1px solid #57bd98;
+}
+
+@media (min-width: 100px) and (max-width: 1100px) {
+  .gridColumn {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1100px) and (max-width: 1230px) {
+  .gridColumn {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
